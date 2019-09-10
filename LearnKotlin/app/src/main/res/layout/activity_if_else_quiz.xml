@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ActivityIfElseQuiz">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/sub1"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_margin="10dp">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="20dp">
+
+                <RadioGroup
+                        android:id="@+id/radio_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#DADADA"
+                        android:padding="15dp">
+
+                    <TextView
+                            android:id="@+id/question"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/question"
+                            android:textSize="20sp"/>
+                    <RadioButton
+                            android:id="@+id/option1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/option1"
+                            android:onClick="radio_button_click"/>
+                    <RadioButton
+                            android:id="@+id/option2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/option2"
+                            android:onClick="radio_button_click"/>
+                    <RadioButton
+                            android:id="@+id/option3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/option3"
+                            android:onClick="radio_button_click"/>
+                    <RadioButton
+                            android:id="@+id/option4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/option4"
+                            android:onClick="radio_button_click"/>
+                </RadioGroup>
+
+                <Button
+                        android:text="@string/submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/white"
+                        android:id="@+id/ifelse_submit1"
+                        android:layout_marginTop="16dp"/>
+
+                <RadioGroup
+                        android:id="@+id/radio_group1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#DADADA"
+                        android:padding="15dp" android:layout_marginTop="16dp">
+
+                    <TextView
+                            android:id="@+id/question1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/question"
+                            android:textSize="20sp"/>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/code_example1"
+                            android:id="@+id/code_example1"
+                            android:background="#ffffff"
+                            android:padding="5dp" android:layout_margin="8dp"/>
+
+                    <RadioButton
+                            android:id="@+id/option5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/option1"
+                            android:onClick="radio_button_click"/>
+                    <RadioButton
+                            android:id="@+id/option6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/option2"
+                            android:onClick="radio_button_click"/>
+                    <RadioButton
+                            android:id="@+id/option7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/option3"
+                            android:onClick="radio_button_click"/>
+                    <RadioButton
+                            android:id="@+id/option8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/option4"
+                            android:onClick="radio_button_click"/>
+                </RadioGroup>
+
+                <RelativeLayout android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                    <Button
+                            android:text="@string/submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif-medium"
+                            android:textColor="@color/white"
+                            android:id="@+id/ifelse_submit2"
+                            android:layout_marginTop="16dp"/>
+
+                    <Button
+                            android:text="@string/btncontinue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="sans-serif-medium"
+                            android:textColor="@color/white"
+                            android:id="@+id/continueToNextPage"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="16dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+</LinearLayout>

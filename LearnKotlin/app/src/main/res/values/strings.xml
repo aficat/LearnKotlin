@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">LearnKotlin</string>
+    <string name="app">Learn to Code Kotlin</string>
+    <string name="home">Home</string>
+    <string name="game">Game</string>
+    <string name="video">Video Tutorials</string>
+    <string name="online">Online Code Playground</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="agree">Agreement to Terms</string>
+    <string name="privacy">Privacy Policy</string>
+
+    //login or signup
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="login">LOGIN</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="register">REGISTER</string>
+    <string name="tnc">I agree to the Terms of Service</string>
+    <string name="alreadymember">Already a member? Login Here</string>
+    <string name="noaccount">Don\'t have an account? Sign Up</string>
+
+    // quiz
+    <string name="btncontinue">CONTINUE</string>
+    <string name="submit">SUBMIT</string>
+
+    //subject description
+    <string name="description1"></string>
+    <string name="description2"></string>
+    <string name="description3"></string>
+    <string name="description4"></string>
+    <string name="description5"></string>
+    <string name="description6"></string>
+
+    // code example
+    <string name="code_example1"></string>
+    <string name="code_example2"></string>
+    <string name="code_example3"></string>
+    <string name="code_example4"></string>
+    <string name="code_example5"></string>
+
+    //questions and answers
+    <string name="question"></string>
+    <string name="question1"></string>
+    <string name="question2"></string>
+    <string name="option1"></string>
+    <string name="option2"></string>
+    <string name="option3"></string>
+    <string name="option4"></string>
+    <string name="answer1"></string>
+    <string name="answer2"></string>
+
+    // subject titles
+    <string name="sub1">Introduction to Kotlin</string>
+    <string name="sub1_1">What Is Kotlin?</string>
+    <string name="sub1_2">Print Hello World</string>
+    <string name="sub1_3">Comment</string>
+    <string name="sub1_4">Variable Declaration</string>
+    <string name="sub1_5">Data Type</string>
+    <string name="sub1_51">Basic Data Type</string>
+    <string name="sub1_52">Character Data Type</string>
+    <string name="sub1_53">Boolean Data Type</string>
+    <string name="sub1_6">Type Conversion</string>
+
+    <string name="sub2">Math and Logic</string>
+    <string name="sub2_1">Arithmetic Operator</string>
+    <string name="sub2_2">Relation Operator</string>
+    <string name="sub2_3">Assignment Operator</string>
+    <string name="sub2_4">Logical Operator</string>
+    <string name="sub2_5">Input Output</string>
+    <string name="sub2_51">Input</string>
+    <string name="sub2_52">Output</string>
+
+    <string name="sub3">Control Flow</string>
+    <string name="sub3_1">If-Else Statement</string>
+    <string name="sub3_2">When Expression</string>
+    <string name="sub3_3">For Loop</string>
+    <string name="sub3_4">While Loop</string>
+    <string name="sub3_5">Do-While Loop</string>
+    <string name="sub3_6">Break and Continue</string>
+    <string name="sub3_61">Break</string>
+    <string name="sub3_62">Continue</string>
+
+    <string name="sub4">Function</string>
+    <string name="sub4_1">Standard Library</string>
+    <string name="sub4_2">User Defined</string>
+
+    <string name="sub5">String</string>
+    <string name="sub6">Array</string>
+    <string name="sub7">Null Safety</string>
+    <string name="sub8">Exception</string>
+
+
+    <string name="mathsLogic">Maths and Logic</string>
+    <string name="function">Functions</string>
+
+    <string name="arithmetic">Arithmetic Operator</string>
+    <string name="relation">Relation Operator</string>
+    <string name="assignment">Assignment Operator</string>
+    <string name="logical">Logical Operator</string>
+    <string name="inputOutput">Input Output</string>
+    <string name="standardLib">Standard Library</string>
+    <string name="userDefined">User Defined</string>
+
+    <string name="intro">Intro</string>
+    <string name="operator">Operator</string>
+    <string name="descrpt">Description</string>
+    <string name="expression">Expression</string>
+
+    <string name="add">+</string>
+    <string name="addition">Addition</string>
+    <string name="aAddb">a+b</string>
+    <string name="minus">-</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="aMinusB">a-b</string>
+    <string name="star">*</string>
+    <string name="multiply">Multiple</string>
+    <string name="aMultiplyb">a*b</string>
+    <string name="divide">/</string>
+    <string name="division">Division</string>
+    <string name="aDivideb">a/b</string>
+    <string name="mod">%</string>
+    <string name="modulus">Modulus</string>
+    <string name="aModb">a%b</string>
+
+    <string name="addAssign">+=</string>
+    <string name="addAndAssign">Add and Assign</string>
+    <string name="aAddAssignb">a+=b</string>
+
+    <string name="minusAssign">-=</string>
+    <string name="minusAndAssign">Subtract and Assign</string>
+    <string name="aMinusAssignb">a-=b</string>
+
+    <string name="multiplyAssign">*=</string>
+    <string name="multiplyAndAssign">Multiply and Assign</string>
+    <string name="aMultiplyAssignb">a*=b</string>
+
+    <string name="divideAssign">*=</string>
+    <string name="divideAndAssign">Divide and Assign</string>
+    <string name="aDivideAssignb">a/=b</string>
+
+    <string name="modAssign">%=</string>
+    <string name="modAndAssign">Mod and Assign</string>
+    <string name="aModAssignb">a%=b</string>
+
+
+    <string name="and">&amp;&amp;</string>
+    <string name="allExpTrue">Return true if all\n expression are true</string>
+    <string name="aGreaterbAmpaGreaterc">(a&gt;b) &amp; (a&gt;c)</string>
+
+
+    <string name="or">||</string>
+    <string name="anyExpTrue">Return true if any\n expression are true</string>
+    <string name="orExample1">(a>b) || (a>c)</string>
+
+    <string name="complement">!</string>
+    <string name="complementExpression">Return complement \n of expression</string>
+    <string name="not">!a</string>
+
+    <string name="moreThan">&gt;</string>
+    <string name="greaterThan">Greater Than</string>
+    <string name="aGreaterb">a&gt;b</string>
+    <string name="lessthan">&lt;</string>
+    <string name="lessThan">Less Than</string>
+    <string name="aLessThanb">a&lt;b</string>
+
+    <string name="greaterEqual">>=</string>
+
+    <string name="greaterEqual2">Greater Than\n or Equal To</string>
+    <string name="aGreaterEqualb">a>=b</string>
+
+    <string name="lessThanEqual">&lt;=</string>
+    <string name="lessThanEqual2">Less Than\nor Equal To</string>
+    <string name="aLesserEqualb">a&lt;=b</string>
+
+    <string name="equal">==</string>
+    <string name="isEqualTo">Is Equal to</string>
+    <string name="aEqualb">a==b</string>
+
+
+    <string name="notEqual">!=</string>
+    <string name="notEqualTo">Not Equal To</string>
+    <string name="aNotEqualb">a!=b</string>
+
+
+    <string name="example">Example</string>
+    <string name="input">Input</string>
+    <string name="output">Output</string>
+    <string name="remark">Remark:</string>
+    <string name="differences">Differences:</string>
+    <string name="remarkPoints">Points</string>
+
+    <string name="back">Back</string>
+
+    <string name="video1">Introduction to Kotlin Programming Language</string>
+    <string name="video1_d">Kotlin Tutorials for Beginners</string>
+    <string name="video2"></string>
+    <string name="video3"></string>
+    <string name="video4"></string>
+    <string name="video5"></string>
+    <string name="video6"></string>
+
+
+</resources>

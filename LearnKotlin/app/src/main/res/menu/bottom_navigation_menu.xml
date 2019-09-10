@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/ic_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+    />
+    <item
+            android:id="@+id/ic_video"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="Video Tutorials"
+    />
+    <item
+            android:id="@+id/ic_onlineCode"
+            android:icon="@drawable/ic_code_black_24dp"
+            android:title="Online Code Playground"
+    />
+    <item
+            android:id="@+id/ic_game"
+            android:icon="@drawable/ic_videogame_asset_black_24dp"
+            android:title="Game"
+    />
+    <item
+            android:id="@+id/ic_disclaimer"
+            android:icon="@drawable/ic_wb_incandescent_black_24dp"
+            android:title="Disclaimer"
+    />
+</menu>

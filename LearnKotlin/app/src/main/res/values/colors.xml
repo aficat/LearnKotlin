@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#d81b60</color-->
+
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#6E2C90</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="textColor">#6e6e6e</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="purple1">#6E2C90</color>
+    <color name="purple2">#551B72</color>
+
+    <!-- blue style gradient -->
+    <color name="bluestartcolor">#47f9fe</color>
+    <color name="blueendcolor">#1295fd</color>
+    <!-- orange style gradient -->
+    <color name="orangestartcolor">#feed64</color>
+    <color name="orangeendcolor">#dda660</color>
+    <!-- pink style gradient -->
+    <color name="pinkestartcolor">#fd75a5</color>
+    <color name="pinkendcolor">#ea1e77</color>
+    <!-- purple style gradient -->
+    <color name="purplestartcolor">#f75fe1</color>
+    <color name="purpleendcolor">#c425ec</color>
+    <!-- Green style gradient -->
+    <color name="greenstartcolor">#b4fa51</color>
+    <color name="greenendcolor">#78cb29</color>
+    <!-- Red style gradient -->
+    <color name="redstartcolor">#ed1604</color>
+    <color name="redendcolor">#ff8c82</color>
+    <!-- Yellow style gradient -->
+    <color name="yellowstartcolor">#f9f504</color>
+    <color name="yellowendcolor">#fffd91</color>
+    <!-- Purple2 style gradient -->
+    <color name="purple2startcolor">#5c02cc</color>
+    <color name="purple2endcolor">#c398f9</color>
+
+    <color name="difference">#8e0505</color>
+
+    <color name="divider_color">#ffffff</color>
+</resources>
